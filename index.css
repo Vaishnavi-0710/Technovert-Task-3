@@ -96,3 +96,12 @@ body{
 #item{
    margin-left: 200px;
 }
+.button{
+   border-color: #dad8d9;
+   border-radius: 7px;
+   border-style:groove;
+   border-width: 2px;
+}
+.search-bar{
+   color:#dad8d9;
+}
