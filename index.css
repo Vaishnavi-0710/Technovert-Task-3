@@ -59,7 +59,7 @@ body{
    margin-top: 3px;
    float:right;
 }
- .nav-bar{
+.nav-bar{
    background-color: #dad8d9;
    display:flex;
    flex-direction: row;
@@ -68,19 +68,19 @@ body{
    margin-top: 13px;
    border: 1px solid #dad8d9;
 }
- .nav-bar ul {
+.nav-bar ul {
    list-style-type: none;
    padding: 0;
    margin:2px;
    border:1px solid white;
    width:100%;
 }
- .nav-bar li {
+.nav-bar li {
    float: left;
    border-right: 1px solid #e3e3e3;
    position: relative;
  }
- .nav-bar li a {
+.nav-bar li a {
    display: block;
    padding: 8px;
    font-family: Arial;
@@ -89,7 +89,7 @@ body{
    top:20px;
    background-color: #dad8d9;
 }
- .nav-bar li:last-child {
+.nav-bar li:last-child {
    border-right: none;
 }
 #item{
@@ -103,4 +103,62 @@ body{
 }
 .search-bar{
    color:#dad8d9;
+}
+.nav-bar1{
+   background-color: #ffffff;
+   display:flex;
+   flex-direction: row;
+   text-align: center;
+   width:100%;
+   border: 1px solid #dad8d9;
+}
+.nav-bar1 ul {
+   list-style-type: none;
+   padding: 0;
+   margin:2px;
+   width:100%;
+}
+.nav-bar1 li {
+   float: left;
+   position: relative;
+}
+.nav-bar1 li a {
+   display: flex;
+   padding: 8px;
+   font-family: Arial;
+   text-align: center;
+   color:rgb(8, 8, 102);
+   top:20px;
+}
+.nav-bar1 li:last-child {
+   border-right: none;
+}
+.container{
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   width:1022px;
+}
+.image{
+   width: 700px;
+   height:400px;
+   padding: 7px;
+   padding-bottom: 2px;
+}
+.table{
+   background-color: #333230;
+   width: 285px;
+   height:390px;
+   padding: 7px;
+   margin-top: 6px;
+   padding-bottom: 2px;
+   border: 1px solid #4a4947;
+}
+.heading{
+   font-size: 20px;
+   color:#f1eff0;
+   font-family: Arial;
+   text-align: center;
+   margin-top: 20px;
 }
