@@ -112,6 +112,10 @@ body{
 .item:last-child {
    border-right: none;
 }
+/* .dining{
+   padding-left: 0;
+   margin-left: 0;
+} */
 .button{
    border-color: #dad8d9;
    border-radius: 7px;
