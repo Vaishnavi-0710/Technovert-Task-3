@@ -362,6 +362,7 @@ body{
    font-size: 13px;
    width:985px;
    padding:5px;
+   padding-top: 0;
    margin:0;
 }
 .email-bar{
