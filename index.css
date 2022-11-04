@@ -109,7 +109,7 @@ body{
    top:20px;
    background-color: #dad8d9;
 }
-.nav-bar li:last-child {
+.item:last-child {
    border-right: none;
 }
 .button{
@@ -144,11 +144,9 @@ body{
    padding: 0;
    margin:2px;
 }
-.menu-bar li {
+.list{
    display: inline-block;
    position: relative;
-}
-.list{
    font-family: Arial;
    color:rgb(8, 8, 102);
 }
@@ -178,7 +176,7 @@ body{
    padding: 7px;
    padding-bottom: 2px;
 }
-.table{
+.section{
    background-color: #333230;
    width: 270px;
    height:397px;
@@ -187,7 +185,7 @@ body{
    padding-bottom: 2px;
    border: 5px #4a4947;
 }
-.table::before{
+.section::before{
    content: "";
    border:1px solid #474644;
    position:absolute;
@@ -198,52 +196,57 @@ body{
    box-sizing:border-box;
 }
 .heading{
-   font-size: 20px;
-   color:#f1eff0;
+   font-size: 25px;
+   color:#fffeff;
    font-family: Arial;
-   text-align: left;
-   margin-top: 20px;
-   margin-left:40px;
+   width: 200px;
+   text-align: center;
+   margin-top: 35px;
+   padding-left:34px ;
+   padding-bottom: 5px;
 }
 .content{
    font-size: 13px;
-   color:#686667;
+   color: #999798;
    font-family: Arial;
    text-align: left;
+   justify-content: center;
+   line-height:25px;
    margin-top: 5px;
    width:190px;
-   margin-left: 40px;
+   padding-left: 45px;
 }
 .bottom-content a{
-   font-size: 13px;
-   color:#686667 !important;
+   font-size: 11px;
+   color: #999798;
    font-family: Arial;
    text-align: left;
    margin-top: 5px;
    width:190px;
    margin-left: 40px;
 }
-.table ul{
+.section-list{
    list-style-type: none;
    width: 200px;
 }
-.table ul li{
+.section-list-item{
    text-align: left;
    border-bottom:1px solid #4D4C4A;
-   color: #B2B0B1;
+   /* color: #B2B0B1; */
+   color:#FFFEFC;
    font-family: Arial;
    font-size: 15px;
    padding: 5px;
 
 }
-.table ul li:last-child{
+.section-list-item:last-child{
    border-bottom: none;
 }
 .bottom-container{
    background-color: #2f2d2e;
    display: flex;
    flex-direction: row;
-   /* font-family: Arial; */
+   font-family: "Gadugi";
    text-align: left;
    width: 970px;
    border-style:solid;
@@ -256,14 +259,21 @@ body{
    background-color: white;
    padding-left: 8px;
 }
+/* .bottom-item::after{
+   border-right:1px solid #E1E1E1 ;
+   content: "";
+   border-right:1px solid black ;
+} */
 .line1{
    position: relative;
-   font-size: 18px;
+   color:#282828;
+   font-size: 17px;
    z-index: 2;
 }
 .line2{
    position: relative;
-   font-size: 13px;
+   color:#878787;
+   font-size: 12px;
    z-index: 2;
 }
 .line3{
@@ -272,14 +282,14 @@ body{
    font-size: 13px;
    text-decoration: none;
    z-index: 2;
-   color:rgb(8, 8, 102);
+   color:#3B4A6B;
 }
 .line3-1{
    position: relative;
    font-size: 13px;
    z-index: 2;
    text-decoration: none;
-   color:rgb(8, 8, 102);
+   color:#3B4A6B;
 }
 .img1{
    position: relative;
@@ -293,4 +303,74 @@ body{
    position: relative;
    bottom: 135px;
    left: 120px;
+}
+.footer-item{
+   display: flex;
+   flex-direction:row;
+   width:985px;
+   padding: 5px;
+}
+.top-left-list{
+   list-style-type: none;
+   padding: 0;
+   margin:2px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.top-left-list-item{
+   display: inline-block;
+   position: relative;
+}
+.top-left-list-item a{
+   color:#91918F;
+   font-family: "Gadugi";
+   font-size: 13px;
+}
+.top-left-list-item ::after{
+   content:"|";
+   padding: 7px;
+}
+.top-left-list-item:last-child ::after{
+   content:"";
+}
+.top-right-item{
+   color:#91918F;
+   font-family: "Gadugi";
+   font-size: 13px;
+   display: flex;
+   flex-direction: row-reverse !important;
+   align-items: center;
+}
+.middle-left-item{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   color:#91918F;
+   font-family: "Gadugi";
+   font-size: 13px;
+}
+.email{
+   color:#91918F;
+   font-family: "Gadugi";
+   font-size: 13px;
+   padding:4px;
+}
+.bottom-footer-item{
+   color:#91918F;
+   font-family: "Gadugi";
+   font-size: 13px;
+   width:985px;
+   padding:5px;
+   margin:0;
+}
+.email-bar{
+   color:#666666;
+   font-size: 13px;
+} 
+.signup-button{
+   border-color: #dad8d9;
+   border-radius: 5px;
+   border-style:groove;
+   border-width: 2px;
 }
